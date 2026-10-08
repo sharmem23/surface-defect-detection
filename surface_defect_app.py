@@ -10,7 +10,7 @@ import io
 # Load trained model
 # --------------------------------
 model = tf.keras.models.load_model(
-    "/content/surface_defect_model.keras"
+    "surface_defect_model.keras"
 )
 
 # --------------------------------
